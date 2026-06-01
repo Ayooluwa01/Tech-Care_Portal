@@ -20,7 +20,6 @@ export default async function Home() {
           <DiagnosticHistory />
         </main>
 
-        {/* 🚀 Right Sidebar Section: Made transparent so the children render as two distinct cards with a gap! */}
         <section className="w-full lg:w-[367px] h-full lg:h-[1054px] shrink-0 flex flex-col">
           <PatientProfile />
         </section>

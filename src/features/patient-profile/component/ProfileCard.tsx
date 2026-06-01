@@ -69,8 +69,8 @@ export const ProfileCard = () => {
       >
         {activePatient.name}
       </Text>
-      {/* Metadata Info Loop */}
-      <div className="w-full space-y-6 mb-10 px-2">
+      
+            <div className="w-full space-y-6 mb-10 px-2">
         {infoItems.map((item) => (
           <div key={item.label} className="flex flex-row items-center">
             <div className="w-[40px] h-[40px] rounded-full bg-[#F6F7F8] flex items-center justify-center mr-4 shrink-0">

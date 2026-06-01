@@ -32,7 +32,7 @@ export function TopNav() {
           return (
             <Link
               key={item.label}
-              href={item.path}
+              href={''}
               className={`h-10 px-4 flex items-center gap-2 transition-all duration-150 rounded-[70px] ${
                 isActive
                   ? "bg-[#01F0D0] text-[#07263E] font-bold"
@@ -62,7 +62,7 @@ export function TopNav() {
         })}
       </nav>
 
-      {/* Right Column Profile Settings Utility Box */}
+      {/* Right  */}
       <div className="flex items-center gap-3">
         <Icon src={femaleDoctor} alt="Tech.Care Logo" width={44} height={44} />
 
